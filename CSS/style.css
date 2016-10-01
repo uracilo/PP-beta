@@ -1,0 +1,34 @@
+.imagen{
+  text-align: center;
+ //background-image: url("http://freedomsmokeusa.com/store/media/catalog/product/f/o/forest_fruit1360769624511bb2587202a.jpg");
+background-size: cover;
+margin-bottom: 0px;
+width: 100%;
+height: 100vh;
+margin: auto;
+
+}
+
+.formulario{
+	height: 100vh;
+	margin: 5%;
+}
+
+h1{
+	margin: auto;
+font-family: 'Pacifico', cursive;
+
+}
+h2{
+	font-family: 'Merienda', cursive;
+	font-size: 2.56rem;
+}
+.letra{
+		font-family: 'Merienda', cursive;
+		    background-color: white;
+		    color: black;
+		    border-radius: 60%;}
+
+
+
+
