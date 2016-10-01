@@ -9,6 +9,8 @@
 <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 </head>
 <body>
+
+<section id="header">
 <div class="container jumbotron imagen">
 <div class="row">
 <br>
@@ -23,32 +25,42 @@
 <br>
 <br>
 <br>
-  <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">+</i></a>
+  <a href="#banner" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">+</i></a>
 </div>
 </div>
+</section>
 
-<form action="">
 
-	<h3>Creando un sabor nuevo</h3>
+
+<section id="banner">
+<form action="https://formspree.io/placerpulposo@gmail.com" method="POST">
+<br><br>
 	
-
-
+	<h3>Creando un sabor nuevo</h3>
+	<!--
+<form action="https://formspree.io/your@email.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
+-->
 <div name="formulario" class="row formulario" id="form">
 <a name="formulario" href=""></a>
     <form class="col s12">
       <div class="row">
         <div class="input-field col s6">
-          <input placeholder="Nombre" id="first_name" type="text" class="validate">
+          <input name="Nombre" placeholder="Nombre" id="first_name" type="text" class="validate">
           <label for="first_name"></label>
         </div>
         <div class="input-field col s6">
-          <input  placeholder="Apellido" id="last_name" type="text" class="validate">
+          <input  name="Apellido" placeholder="Apellido" id="last_name" type="text" class="validate">
           <label for="last_name"></label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <input placeholder="Correo electrónico" id="email" type="email" class="validate">
+          <input name="Correo" placeholder="Correo electrónico" id="email" type="email" class="validate">
           <label for="email"></label>
         </div>
       </div>
@@ -109,7 +121,7 @@
 
             <div class="row">
         <div class="input-field col s12">
-          <textarea placeholder="Describe el sabor de tu mermelada" id="textarea1" class="materialize-textarea"></textarea>
+          <input name="El sabor de la mermelada" placeholder="¿Qué fruta, verdura o sabor es el de tu mermelada?" id="textarea1" class="materialize-textarea"></input>
           <label for="textarea1"></label>
         </div>
       </div>
@@ -124,10 +136,7 @@
 	
 </form>
 
-
-  <div class="row">
-  	
-  </div>
+</section>
 
 	
 </body>
