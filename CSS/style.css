@@ -19,7 +19,15 @@ h1{
 font-family: 'Pacifico', cursive;
 
 }
-h2{
+p{
+		font-family: 'Merienda', cursive;
+
+}
+h3{
+	text-align: center;
+}
+
+h2, h3, input, label{
 	font-family: 'Merienda', cursive;
 	font-size: 2.56rem;
 }
@@ -27,8 +35,43 @@ h2{
 		font-family: 'Merienda', cursive;
 		    background-color: white;
 		    color: black;
-		    border-radius: 60%;}
+		    border-radius: 60%;
+		}
+ /* label color */
+   .input-field label {
+     color: #000;
+   }
+   /* label focus color */
+   .input-field textarea,input[type=text]:focus + label {
+     color: #000;
+   }
+   /* label underline focus color */
+   .input-field textarea,input[type=text]:focus {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* valid color */
+   .input-field textarea,input[type=text].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* invalid color */
+   .input-field textarea,input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #000;}
 
 
-
+     input::-webkit-input-placeholder {
+  color: black;
+}
+input:-moz-placeholder {
+  color: black; 
+}
+input:-ms-input-placeholder { 
+  color: black; 
+}
 
