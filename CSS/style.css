@@ -1,12 +1,20 @@
 .imagen{
   text-align: center;
- //background-image: url("http://freedomsmokeusa.com/store/media/catalog/product/f/o/forest_fruit1360769624511bb2587202a.jpg");
 background-size: cover;
 margin-bottom: 0px;
 width: 100%;
 height: 100vh;
 margin: auto;
 
+}
+.boton{
+    font-size: 16px;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    align-content: center;
+    border-radius: 79%;
+    height: 162px;
+    background-color:#2BB41E
 }
 
 .formulario{
